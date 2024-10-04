@@ -32,12 +32,8 @@ require("lazy").setup({
   },
   install = {
     colorscheme = {
-      "catppuccin",
-      "tokyonight",
-      "rose-pine",
-      "gruvbox-material",
       "rebelot/kanagawa.nvim",
-      "nordic",
+      -- "catppuccin",
     },
   },
   checker = {
