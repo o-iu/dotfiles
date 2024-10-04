@@ -32,8 +32,7 @@ require("lazy").setup({
   },
   install = {
     colorscheme = {
-      "rebelot/kanagawa.nvim",
-      -- "catppuccin",
+      "catppuccin",
     },
   },
   checker = {
