@@ -1,2 +1,2 @@
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 12
 vim.opt.textwidth = 100
