@@ -32,7 +32,7 @@ require("lazy").setup({
   },
   install = {
     colorscheme = {
-      "catppuccin",
+      "github_dark_default",
     },
   },
   checker = {
