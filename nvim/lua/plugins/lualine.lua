@@ -26,6 +26,7 @@ return {
     custom_auto.command.c.bg = nil
     custom_auto.inactive.c.bg = nil
     custom_auto.replace.c.bg = nil
+    custom_auto.terminal.c.bg = nil
 
     local opts = {
       options = {
