@@ -31,6 +31,8 @@ return {
     local opts = {
       options = {
         theme = custom_auto,
+        section_separators = "",
+        component_separators = "",
         globalstatus = vim.o.laststatus == 3,
         disabled_filetypes = { statusline = { "dashboard", "alpha", "ministarter" } },
       },
@@ -53,6 +55,7 @@ return {
           { LazyVim.lualine.pretty_path() },
         },
         lualine_x = {
+          "harpoon2",
           -- stylua: ignore
           {
             function() return require("noice").api.status.command.get() end,
